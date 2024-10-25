@@ -13,3 +13,8 @@ console.log(true && false); //FALSE, pq para ser VERDADEIRO precisa todos serem 
 
 console.log(!false);        //o que é vdd vira falso e o que é falso vira vdd.
 
+const usuario = "Matheus";
+const senha = '123456';
+
+const vaiLogar = usuario === 'Matheus' && senha === '123456' ;
+console.log(vaiLogar);

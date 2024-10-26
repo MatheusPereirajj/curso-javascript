@@ -21,3 +21,19 @@ function horaa(){
 };
 
 horaa();
+
+
+function tempo(){
+    const t = 15;
+
+    if(t > 0 && t < 12){
+        console.log("BOM DIA!!")
+    }else if(t >= 12 && t < 18){
+        console.log("BOA TARDE!!")
+    }else if(t >= 18 && t < 24){
+        console.log("BOA NOITE!!")
+    }else {
+        console.log("Olá!")
+    }
+};
+tempo();

@@ -72,7 +72,9 @@ function criaP (){
 function setResultado(msg){
     const resultado = document.querySelector('#resultado');
     resultado.innerHTML = ''; //nessa parte eu deixei o 'resultado' em branco para aparecer o 'p' que criei abaixo. 
+    
     const p = criaP();
+    
     p.innerHTML = msg;
     resultado.appendChild(p);
 };

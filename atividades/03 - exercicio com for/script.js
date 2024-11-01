@@ -17,9 +17,8 @@ for (let i = 0; i < elementos.length; i++){
     
     //tagCriada.innerHTML = texto;
     let textoCriado = document.createTextNode(texto);
-    tagCriada.appendChild(textoCriado);
-
     
+    tagCriada.appendChild(textoCriado);
     div.appendChild(tagCriada);
     
 }

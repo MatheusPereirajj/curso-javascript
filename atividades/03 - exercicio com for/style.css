@@ -5,7 +5,7 @@
     text-align: center;
 
 }
-.container {
+.container h1 div{
     display: flex;
     justify-content: center;
     align-items: center;
